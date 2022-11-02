@@ -1,0 +1,21 @@
+@import '../../global.scss';
+nav{
+    @include df(center,space-around);
+    a{
+            text-decoration: none;
+            h1{
+                color: #000;
+                font-size: 25px;
+            }
+    }
+    .app{
+        @include df(center,space-between);
+        width: 160px;
+        a{
+            color: #000;
+            &:focus{
+                color: #1976D1;
+            }
+        }
+    }
+}
